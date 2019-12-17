@@ -23,9 +23,9 @@ namespace BlazorMultiHead.Server
       services.AddRazorPages();
 #if !WASM
       services.AddServerSideBlazor();
-#endif
       services.AddSingleton<IForecastService, ForecastService>();
       services.AddSingleton<IHostType, HostType>();
+#endif
     }
 
     // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
