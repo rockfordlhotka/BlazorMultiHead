@@ -6,8 +6,8 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <!--<DefineConstants>TRACE;WASM</DefineConstants>-->
-    <DefineConstants>TRACE</DefineConstants>
+    <DefineConstants>TRACE;WASM</DefineConstants>
+    <!--<DefineConstants>TRACE</DefineConstants>-->
   </PropertyGroup>
 
   <ItemGroup>
@@ -22,7 +22,6 @@
 
   <ItemGroup>
     <Folder Include="Pages\" />
-    <Folder Include="wwwroot\" />
   </ItemGroup>
 
 </Project>
