@@ -15,7 +15,6 @@ namespace BlazorMultiHead.Server
     // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
     public void ConfigureServices(IServiceCollection services)
     {
-      services.AddMvc();
       services.AddResponseCompression(opts =>
       {
         opts.MimeTypes = ResponseCompressionDefaults.MimeTypes.Concat(
@@ -36,6 +35,10 @@ namespace BlazorMultiHead.Server
       {
         app.UseDeveloperExceptionPage();
         app.UseBlazorDebugging();
+      }
+      else
+      {
+        app.UseExceptionHandler("/Error");
       }
 
       app.UseStaticFiles();

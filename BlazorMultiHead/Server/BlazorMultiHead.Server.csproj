@@ -20,8 +20,4 @@
     <ProjectReference Include="..\Ui\BlazorMultiHead.Ui.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Pages\" />
-  </ItemGroup>
-
 </Project>
