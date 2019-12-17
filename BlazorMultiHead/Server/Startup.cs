@@ -38,11 +38,12 @@ namespace BlazorMultiHead.Server
         app.UseDeveloperExceptionPage();
         app.UseBlazorDebugging();
       }
+#if !WASM
       else
       {
         app.UseExceptionHandler("/Error");
       }
-
+#endif
       app.UseStaticFiles();
 
 #if WASM
