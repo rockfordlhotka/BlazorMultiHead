@@ -1,3 +1,3 @@
 ﻿# BlazorMultiHead
 
-Sample from Using CSLA: Blazor and CSLA .NET book
+Sample from the upcoming _Using CSLA: Blazor and WebAssembly_ book
