@@ -21,7 +21,9 @@ namespace BlazorMultiHead.Server
                   new[] { "application/octet-stream" });
       });
       services.AddRazorPages();
+#if !WASM
       services.AddServerSideBlazor();
+#endif
       services.AddSingleton<IForecastService, ForecastService>();
       services.AddSingleton<IHostType, HostType>();
     }
