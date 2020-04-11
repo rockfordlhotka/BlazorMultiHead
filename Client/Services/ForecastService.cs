@@ -17,7 +17,7 @@ namespace Client.Services
 
     public async Task<WeatherForecast[]> GetForecastAsync(DateTime time)
     {
-      return await Http.GetJsonAsync<WeatherForecast[]>("WeatherForecast");
+      return await Http.GetJsonAsync<WeatherForecast[]>("sample-data/weather.json");
     }
   }
 }
