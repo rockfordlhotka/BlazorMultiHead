@@ -1,6 +1,6 @@
-﻿using Ui.Services;
+﻿using BlazorMultiHead.Ui.Services;
 
-namespace Client.Services
+namespace BlazorMultiHead.Client.Services
 {
   public class HostType : IHostType
   {

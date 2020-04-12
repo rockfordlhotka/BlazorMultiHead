@@ -1,9 +1,9 @@
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using Microsoft.Extensions.DependencyInjection;
-using Client.Services;
+using BlazorMultiHead.Client.Services;
 
-namespace Client
+namespace BlazorMultiHead.Client
 {
     public class Program
     {

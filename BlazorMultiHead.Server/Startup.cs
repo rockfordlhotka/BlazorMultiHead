@@ -3,9 +3,9 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Server.Services;
+using BlazorMultiHead.Server.Services;
 
-namespace Server
+namespace BlazorMultiHead.Server
 {
     public class Startup
     {

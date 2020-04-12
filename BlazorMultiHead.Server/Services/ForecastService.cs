@@ -1,10 +1,10 @@
 ﻿using BlazorMultiHead.Shared;
-using Ui.Services;
+using BlazorMultiHead.Ui.Services;
 using System;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Server.Services
+namespace BlazorMultiHead.Server.Services
 {
   public class ForecastService : IWeatherForecastService
   {

@@ -2,7 +2,7 @@
 using System;
 using System.Threading.Tasks;
 
-namespace Ui.Services
+namespace BlazorMultiHead.Ui.Services
 {
     public interface IWeatherForecastService
     {

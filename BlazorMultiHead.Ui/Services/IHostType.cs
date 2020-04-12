@@ -1,4 +1,4 @@
-﻿namespace Ui.Services
+﻿namespace BlazorMultiHead.Ui.Services
 {
     public interface IHostType
     {
